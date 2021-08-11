@@ -1,0 +1,16 @@
+class vmpwNodeGraph():
+    def __init__(self):
+        
+        '''
+        the nodegraoh object renders a patch in a view.
+        '''
+
+class vmpwNetwork():
+    def __init__(self):
+        '''A network is a series of operators.''' 
+
+
+class vmpwNodeGraphImplementation():
+    '''
+    Abstract Class for representing the vmpw node graph
+    '''

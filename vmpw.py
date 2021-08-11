@@ -2,6 +2,7 @@
 from QtLive.devBox import *
 from QtLive.embedded_IPython import *
 
+from PyQt5 import QtGui
 from vmpw.vmpwMidiPort import vmpwMidiWidget
 
 #Import the context
@@ -42,6 +43,7 @@ def vmpw_main():
     widget = LiveConsole(workFile=startScript)
     widget.show()
     
+    app.setWindowIcon(QtGui.QIcon('/vmpw/style/Capture.ico'))
     app.exec_()    
 
 if __name__ == '__main__':

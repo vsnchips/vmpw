@@ -1,0 +1,4 @@
+//Define default uniforms
+//Define fragmentShaderRenderer
+devtop = vmpwGLSLTop(file='./content/visions/eightfold_moon.glsl',dev=True)
+
